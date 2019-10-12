@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    
+</head>
+<body class="bg-white">
+    <div class="row">
+        <div class="col-6">
+            <span id="high-scores" class="space">View High-Scores</span>
+        </div>
+        <div class="col-6 text-right">
+            <span id="timer" class="space">Time: 75</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 id="question">Coding Quiz</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12 text-center">
+                <p id="details">Ready to take a coding quiz?</p>
+            </div>
+        </div>
+
+        <div id="answer-row" class="row">
+            <div id="answer-col" class="col-12 text-center">
+                <button id="start" class="btn btn-warning">Start Quiz</button>
+                <ul id="answer-list">
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/questions.js"></script>
+    <script src="assets/script.js"></script>
+
+</body>
+</html>
