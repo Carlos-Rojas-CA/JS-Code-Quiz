@@ -22,7 +22,6 @@ var questions = [
     {
       title: "What is the correct syntax for referring an external javascript file?",
       choices: ["<script src=”geek.js”>", "<script ref=”geek.js”>", "<script name=”geek.js”>", "<script href=”geek.js”>"],
-      answer: ""
+      answer: "<script src=”geek.js”>"
     }
   ];
-console.log(questions.length)
